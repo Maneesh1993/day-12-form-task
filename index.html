@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Survey Form</h1>
+    <div class="col-lg-8 border">
+        <form>
+            <label class="borderz" for="name"><b>Name*</b></label>
+            <input class="borderz" type="text" name="" id="name" placeholder="Firstname" required >
+            <input class="borderz" type="text" name="" id="name" placeholder="Lastname" required>  <BR>
+
+            <label class="borderz" for="name1"><b>Email*</b></label>
+            <input class="borderz" type="email" name="" id="name1" placeholder="Enter your email" required><br>
+
+
+            <label class="borderz" for="5"><b>Experience*</b></label><br>
+            <div class="rating">
+                <input class="bordez" name="rating" id="5"><label for=”5″>☆☆☆☆☆</label>
+                <p>overall how would you rate your experience</p>
+            </div>
+
+
+            <h4>How satisfied are you with*</h4>
+
+            <!-- <div>Very Unsatisfied Unsatisfied Neutral Satisfied Very Satisfied</div>/ -->
+            <div class="container">
+                <div class="border d-flex">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-2">Very Unsatisfied</div>
+                    <div class="col-lg-2">Unsatisfied</div>
+                    <div class="col-lg-2">Neutral</div>
+                    <div class="col-lg-2">Satisfied</div>
+                    <div class="col-lg-2">Very Satisfied</div>
+
+
+                </div>
+
+                <div class=" border d-flex">
+                    <div class="col-lg-2" style="background-color: lightblue;">Purchase</div>
+                    <div class="col-lg-2" style="background-color: lightblue;"><input name="Purchase " type="radio"></div>
+                    <div class="col-lg-2" style="background-color: lightblue;"><input name="Purchase " type="radio"></div>
+                    <div class="col-lg-2" style="background-color: lightblue;"><input name="Purchase " type="radio"></div>
+                    <div class="col-lg-2" style="background-color: lightblue;"><input name="Purchase " type="radio"></div>
+                    <div class="col-lg-2" style="background-color: lightblue;"><input name="Purchase " type="radio"></div>
+                </div>
+
+                <div class=" border d-flex">
+                    <div class="col-lg-2">Service</div>
+                    <div class="col-lg-2"><input name="Service " type="radio"></div>
+                    <div class="col-lg-2"><input name="Service " type="radio"></div>
+                    <div class="col-lg-2"><input name="Service " type="radio"></div>
+                    <div class="col-lg-2"><input name="Service " type="radio"></div>
+                    <div class="col-lg-2"><input name="Service " type="radio"></div>
+                </div>
+                <div class="border d-flex">
+                    <div class="col-lg-2" style="background-color: lightblue;">Company Overall</div>
+                    <div class="col-lg-2" style="background-color: lightblue;"><input name="Company OverallPurchase " type="radio"></div>
+                    <div class="col-lg-2" style="background-color: lightblue;"><input name="Company OverallPurchase " type="radio"></div>
+                    <div class="col-lg-2"style="background-color: lightblue;"><input name="Company OverallPurchase " type="radio"></div>
+                    <div class="col-lg-2"style="background-color: lightblue;"><input name="Company OverallPurchase " type="radio"></div>
+                    <div class="col-lg-2"style="background-color: lightblue;"><input name="Company OverallPurchase " type="radio"></div>
+                </div>
+            </div>
+            <h4>How Likey are you too*</h4>
+
+            <!-- <div>Very Unsatisfied Unsatisfied Neutral Satisfied Very Satisfied</div>/ -->
+            <div class="container2">
+                <div class="border d-flex">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-2">Very UnLikely</div>
+                    <div class="col-lg-2">UNLikely</div>
+                    <div class="col-lg-2">Neutral</div>
+                    <div class="col-lg-2">Likely</div>
+                    <div class="col-lg-2">Very Likely</div>
+
+
+                </div>
+
+                <div class=" border d-flex">
+                    <div class="col-lg-2"style="background-color: lightblue;">Buy from us again</div>
+                    <div class="col-lg-2"style="background-color: lightblue;"><input name="buy " type="radio"></div>
+                    <div class="col-lg-2"style="background-color: lightblue;"><input name="buy " type="radio"></div>
+                    <div class="col-lg-2"style="background-color: lightblue;"><input name="buy " type="radio"></div>
+                    <div class="col-lg-2"style="background-color: lightblue;"><input name="buy " type="radio"></div>
+                    <div class="col-lg-2"style="background-color: lightblue;"><input name="buy " type="radio"></div>
+                   
+                </div>
+
+                <div class=" border d-flex">
+                    <div class="col-lg-2">Recommend our product</div>
+                    <div class="col-lg-2"><input name="Recommend our product " type="radio"></div>
+                    <div class="col-lg-2"><input name="Recommend our product " type="radio"></div>
+                    <div class="col-lg-2"><input name="Recommend our product " type="radio"></div>
+                    <div class="col-lg-2"><input name="Recommend our product " type="radio"></div>
+                    <div class="col-lg-2"><input name="Recommend our product " type="radio"></div>
+                </div>
+                <div class="border d-flex">
+                    <div class="col-lg-2"style="background-color: lightblue;">Recommend our company</div>
+                    <div class="col-lg-2"style="background-color: lightblue;"><input name="Recomend our company " type="radio"></div>
+                    <div class="col-lg-2"style="background-color: lightblue;"><input name="Recomend our company " type="radio"></div>
+                    <div class="col-lg-2"style="background-color: lightblue;"><input name="Recomend our company " type="radio"></div>
+                    <div class="col-lg-2"style="background-color: lightblue;"><input name="Recomend our company " type="radio"></div>
+                    <div class="col-lg-2"style="background-color: lightblue;"><input name="Recomend our company " type="radio"></div>
+                </div>
+            </div>
+
+            <div class="container3">
+                <div>
+                    <h4>Additional comments or suggestions</h4>
+                    <textarea placeholder="Tell us what on your mind" cols="100 " row="6000"></textarea>
+
+                </div>
+            </div>
+
+            <input type="submit" class="btn-primary">
+    </div>
+    </form>
+    </div>
+</body>
+
+</html>
